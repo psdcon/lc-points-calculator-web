@@ -1,0 +1,41 @@
+[
+    {"label": "English", "value": "English", "disabled": true},
+    {"label": "Irish", "value": "Irish", "disabled": true},
+    {"label": "Maths", "value": "Maths", "disabled": true},
+    {
+        "label": "Languages",
+        "options": [
+            {"label": "French", "value": "French"}, {"label": "German", "value": "German"}, {"label": "Spanish", "value": "Spanish"}, {"label": "Italian", "value": "Italian"}, {"label": "Japanese", "value": "Japanese"}, {"label": "Russian", "value": "Russian"}, {"label": "Arabic", "value": "Arabic"}, {"label": "Latin", "value": "Latin"}, {"label": "Ancient Greek", "value": "Ancient Greek"}, {"label": "Hebrew", "value": "Hebrew"}
+        ]
+    },
+    {
+        "label": "Laboratory Sciences",
+        "options": [
+            {"label": "Physics", "value": "Physics"}, {"label": "Chemistry", "value": "Chemistry"}, {"label": "Biology", "value": "Biology"}, {"label": "Agricultural Science", "value": "Agricultural Science"}, {"label": "Physics and Chemistry", "value": "Physics and Chemistry"}, {"label": "Applied Mathematics", "value": "Applied Mathematics"}
+        ]
+    },
+    {
+        "label": "Business Studies",
+        "options": [
+            {"label": "Accounting", "value": "Accounting"}, {"label": "Agricultural Economics", "value": "Agricultural Economics"}, {"label": "Business", "value": "Business"}, {"label": "Economics", "value": "Economics"}
+        ]
+    },
+    {
+        "label": "Applied Sciences",
+        "options": [
+            {"label": "Technology", "value": "Technology"}, {"label": "Engineering", "value": "Engineering"}, {"label": "Home Economics, Scientific and Social", "value": "Home Economics, Scientific and Social"}, {"label": "Design and Communication Graphics", "value": "Design and Communication Graphics"}, {"label": "Construction Studies", "value": "Construction Studies"}
+        ]
+    },
+    {
+        "label": "Arts and Humanities",
+        "options": [
+            {"label": "Art", "value": "Art"}, {"label": "Classical Studies", "value": "Classical Studies"}, {"label": "Geography", "value": "Geography"}, {"label": "History", "value": "History"}, {"label": "Music", "value": "Music"}, {"label": "Religious Education", "value": "Religious Education"}
+        ]
+    },
+    {
+        "label": "Non-curricular Languages",
+        "options": [
+            {"label": "Bulgarian", "value": "Bulgarian"}, {"label": "Croatian", "value": "Croatian"}, {"label": "Czech", "value": "Czech"}, {"label": "Danish", "value": "Danish"}, {"label": "Dutch", "value": "Dutch"}, {"label": "Estonian", "value": "Estonian"}, {"label": "Finnish", "value": "Finnish"}, {"label": "Greek", "value": "Greek"}, {"label": "Hungarian", "value": "Hungarian"}, {"label": "Latvian", "value": "Latvian"}, {"label": "Lithuanian", "value": "Lithuanian"}, {"label": "Polish", "value": "Polish"}, {"label": "Portuguese", "value": "Portuguese"}, {"label": "Romanian", "value": "Romanian"}, {"label": "Slovak", "value": "Slovak"}, {"label": "Swedish", "value": "Swedish"}
+        ]
+    }
+]

@@ -1,0 +1,134 @@
+
+#errors {
+    background: #c00;
+    color: #fff;
+    display: none;
+    margin: -20px -20px 20px;
+    padding: 20px;
+    white-space: pre-wrap;
+}
+
+/* Calculator*/
+.calculator {
+    /*padding: 1em;*/
+    /*font-size: 16px;*/
+}
+
+.calculator__main {
+    max-width: 100%;
+    width: 600px;
+    margin: 0 auto 50px auto;
+}
+
+.total-points {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Calculator row */
+.calculator-row {
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+.calculator-row > * {
+    margin-left: 0.7em;
+}
+
+.index {
+    width: 3em;
+    padding-right: 0.5em;
+    padding-top: 0.4em;
+    text-align: right;
+}
+
+.level-toggle-btns .btn {
+    padding: 0.5em 0.6rem;
+}
+
+.grade-input {
+    max-width: 3.2em;
+}
+
+.points {
+    min-width: 2em;
+    padding: 0.4em 0;
+}
+
+.points__not-counted {
+    text-decoration: line-through;
+    color: darkgray;
+}
+
+.lcvp-label {
+    padding: 0.4em 0;
+}
+
+/*Bottom button row*/
+.about-btn {
+    position: absolute;
+    margin: 4px;
+    right: 0;
+}
+
+.action-btns {
+    position: fixed;
+    width: 600px;
+    max-width: 100%;
+    bottom: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.action-btns .btn {
+    width: 47%;
+    /*background-color: white;*/
+}
+
+/* Will apply if less than this*/
+@media (min-width: 700px) {
+    .calculator {
+        display: flex;
+    }
+
+    .calculator__errors {
+        flex-grow: 1;
+        margin-left: 1em;
+    }
+}
+
+/* Custom Select styles*/
+.Select {
+    width: 100%;
+}
+
+.Select-option {
+    padding: 0;
+}
+
+.Select-control {
+    height: 100%;
+}
+
+.Select-menu-outer {
+    height: 500px;
+    max-height: calc(100vh - 50px);
+}
+
+.Select-menu {
+    height: 498px;
+    max-height: calc(100vh - 52px);
+}
+
+.Select-option-group-label {
+    border-top: 1px solid lightgray;
+    padding: 0 10px;
+    margin-top: 8px;
+}
+
+.lcvp-select .Select-menu-outer, .lcvp-select .Select-menu {
+    height: auto;
+    /*max-height: auto;*/
+}
